@@ -37,6 +37,7 @@ h3{
     border-bottom: 2px solid #ee9b01;
     border-radius: 8px;
     padding: 10px;
+    color: #333;
 }
 ul {
     list-style-type: none;
@@ -47,6 +48,15 @@ a {
     color: #9b2227;
     text-decoration: underline;
 
+}
+.joke1{
+    background-color: #94d2bd;
+}
+.j1head{
+    background-color: #099396;
+}
+.j1foot{
+    background-color: #099396;
 }
 .content {
     margin-top: 20px;
