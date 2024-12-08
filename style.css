@@ -26,6 +26,13 @@ h1 {
     padding: 10px;
     margin: 0;
 }
+h2{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.j1 h2{
+    margin-left: 200px;
+}
 h3{
     margin-left: 20px;
 }
