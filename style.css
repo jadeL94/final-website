@@ -9,12 +9,12 @@ main {
     max-width: 800px;
     margin: 0 auto;
     margin-top: 10px;
-    padding: 10px;
-    padding-bottom: 0px;
+    padding: 20px; 
     background-color: #099396;
     border-top: 2px solid #ee9b01;
     border-bottom: 2px solid #bb3f03;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 h1 {
     text-align: center;
@@ -36,14 +36,14 @@ h3{
     margin-left: 20px;
 }
 .intro {
-    width: 700px;
-    margin: 20px auto; 
-    text-align: center; 
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center;
     border-top: 2px solid #bb3f03;
     border-bottom: 2px solid #ee9b01;
     border-radius: 8px;
-    padding: 10px;
-    color: #333;
+    padding: 10px; 
+    box-sizing: border-box;
 }
 ul {
     list-style-type: none;
