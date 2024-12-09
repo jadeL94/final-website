@@ -27,11 +27,10 @@ h1 {
     margin: 0;
 }
 h2{
-    margin-top: 40px;
-    margin-left: 150px;
-}
-.j1 h2{
-    margin-left: 200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline #ee9b01;
 }
 h3{
     margin-left: 20px;
@@ -131,4 +130,30 @@ footer {
     color: #333;
     padding-right: 5px;
     margin-top: 15px;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+    main {
+        padding: 5px; 
+    }
+    h1, h2 {
+        font-size: 18px; 
+    }
+    .intro {
+        width: 100%; 
+    }
+    .content {
+        flex-direction: column; 
+        gap: 10px;
+    }
+    .text {
+        max-width: 100%; 
+        text-align: center; 
+    }
+    .image img {
+        max-width: 100%; 
+        height: auto; 
+    }
 }
